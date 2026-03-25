@@ -1,0 +1,23 @@
+{
+  "name": "videocourts",
+  "version": "1.0.0",
+  "description": "Secure virtual court appearances powered by FacePrintPay biometric auth",
+  "main": "backend/server.js",
+  "scripts": {
+    "dev": "node backend/server.js",
+    "start": "node backend/server.js",
+    "build": "echo 'Static build complete'",
+    "test": "echo 'Tests pending'"
+  },
+  "keywords": ["videocourts", "legal", "biometric", "faceprintpay", "ai", "court"],
+  "author": "Cygel White <cygel.co@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0",
+    "dotenv": "^16.0.0",
+    "cors": "^2.8.5",
+    "jsonwebtoken": "^9.0.0",
+    "bcryptjs": "^2.4.3"
+  }
+}
